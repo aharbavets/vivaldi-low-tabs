@@ -1,0 +1,22 @@
+:root {
+    --tab-height: 22px;
+}
+
+#browser:is(.tabs-top, .tabs-bottom) .tab-strip > span {
+    #browser:is(.tabs-top, .tabs-bottom) .tab-position.tab-yield-space {
+        --PositionX: 0px !important;
+        height: var(--tab-height) !important;
+        padding: 0 !important;
+    }
+}
+
+#browser:is(.tabs-top, .tabs-bottom) .tab-strip > span > .tab-position {
+    --PositionX: 0px !important;
+    height: var(--tab-height) !important;
+    padding: 0 !important;
+}
+
+#browser:is(.tabs-top, .tabs-bottom) .tab-strip > span > .tab-position .tab .tab-header {
+    flex-basis: var(--tab-height) !important;
+}
+
