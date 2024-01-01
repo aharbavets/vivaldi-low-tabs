@@ -20,3 +20,17 @@
     flex-basis: var(--tab-height) !important;
 }
 
+.toolbar-tabbar > .button-toolbar > button, .toolbar-tabbar > .toolbar-group > .button-toolbar > button {
+    min-height: var(--tab-height) !important;
+}
+
+.toolbar-large .button-toolbar .button-icon:not(.favicon),
+.toolbar-large .button-toolbar .button-icon svg, .toolbar-medium .button-toolbar .button-icon:not(.favicon), .toolbar-medium .button-toolbar .button-icon svg
+._ {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.button-toolbar > button {
+    height: 20px !important;
+}
